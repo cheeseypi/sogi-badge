@@ -29,6 +29,7 @@ function _validate(format) {
     'flat-square',
     'for-the-badge',
     'social',
+    'sogi'
   ]
   if ('style' in format && !styleValues.includes(format.style)) {
     throw new ValidationError(
